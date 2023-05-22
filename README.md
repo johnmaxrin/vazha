@@ -1,6 +1,6 @@
 # Vazha🌴 - Manglish-to-C Code Generator
 
-Vazha🌴 is a project that aims to enable the generation of C code from Manglish. It provides a simple and intuitive way to express algorithms and logic in Manglish and automatically translates them into valid C code.
+Vazha🌴 is a hobby project that aims to enable the generation of C code from Manglish. It provides a simple and intuitive way to express algorithms and logic in Manglish and automatically translates them into valid C code.
 
 ## How to Run
 
