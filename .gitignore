@@ -1,0 +1,6 @@
+lex.yy.c
+lex.yy.h
+output.c
+y.tab.c
+y.tab.h
+vazha
