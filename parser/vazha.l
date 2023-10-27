@@ -14,7 +14,7 @@ void yyerror(char *);
 
 "cheruth"	return CHERUTH;
 "valuth"	return VALUTH;
-"samam"	return SAMAM;
+"samam"		return SAMAM;
 "ippo"		return IPPO;
 "anengi"	return ANENGI;
 "allengi"	return ALLENGI;
