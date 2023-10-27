@@ -41,6 +41,12 @@ int genStmt(nodeType *p, FILE *outfile)
             genStmt(p->opr.op[1],outfile);
             break;
 
+        case SAMAM:
+            genStmt(p->opr.op[0],outfile);
+            fprintf(outfile," == ");
+            genStmt(p->opr.op[1],outfile);
+            break;
+
         default:
             break;
         }
