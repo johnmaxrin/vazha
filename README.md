@@ -28,6 +28,7 @@ There are only a few constructs in Vazha since it is a hobby project. Here are a
 - Use **ippo** for if
 - Use **cheruth** for <
 - Use **valuth** for >
+- Use **samam** for ==
 - Use **allengi** for else 
 
 😂 ചിരിക്കാതെടാ! 
@@ -38,6 +39,14 @@ ippo (5 cheruth 4) anengi
     kaniku(5);
 allengi
     kaniku(4);
+```
+
+Here's an example of using `samam`  
+```
+ippo (5 samam 4) anengi
+    kaniku(4);
+allengi
+    kaniku(5);
 ```
 
 ## Contributions
