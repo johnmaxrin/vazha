@@ -29,7 +29,7 @@ void yyerror(char *);
 
 %token <iValue>INTEGER;
 %token ANENGI ALLENGI IPPO KANIKU
-%left CHERUTH VALUTH
+%left CHERUTH VALUTH SAMAM
 
 %type <nPtr> expression statement
 
@@ -56,6 +56,7 @@ expression:
             INTEGER                          {$$ = con($1);}
             | expression CHERUTH expression  {$$ = opr(CHERUTH,2,$1,$3);}
             | expression VALUTH expression   {$$ = opr(VALUTH,2,$1,$3);}
+            | expression SAMAM expression   {$$ = opr(SAMAM,2,$1,$3);}
             | '(' expression ')'             {$$ = $2;}
             |
             ;
